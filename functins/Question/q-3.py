@@ -10,8 +10,6 @@ def even_odd():
         print(f"{num} = Even number ")
     else:
         print(f"{num} = Odd number ")
-    return num
 
 
-x = even_odd()
-print(x)
+even_odd()

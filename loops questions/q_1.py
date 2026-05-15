@@ -5,8 +5,23 @@
 #     print(i)
 
 
-i = 0
+# i = 0
 
-while i < 10:
-    print(i)
-    i = i + 1
+# while i < 10:
+#     print(i)
+#     i = i + 1
+
+
+n = int(input("enter the your number = "))
+
+i = 1
+while i <= 10:
+    print(
+        i,
+        "*",
+        n,
+        "=",
+        i * n,
+    )
+    i += 1
+    print()
